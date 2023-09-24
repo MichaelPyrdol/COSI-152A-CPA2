@@ -1,0 +1,109 @@
+:root{
+    --color1:#ffe680;
+    --color2:#ffcd00;
+}
+body{
+    background-color:var(--color1);
+}
+h1{
+    font-family:"Brush Script MT";
+    font-size:10vw;
+    text-align:center;
+    line-height:0;
+}
+h2{
+    text-align:center;
+    font-size:1.5vw;
+    background-color:var(--color2);
+}
+h3{
+    text-align:center;
+    background-color:var(--color1);
+}
+table{
+    background-color:var(--color2);
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+    border:1vw ridge var(--color2);
+}
+th{
+    font-size:2vw;
+    background-color:var(--color1);
+}
+nav{
+    overflow:hidden;
+    background-color:var(--color2);
+    font-size:1vw;
+    border:1vw ridge var(--color2);
+}
+nav a{
+    float:left;
+    display:block;
+    color:black;
+    text-align:center;
+    padding:0.5vw 1vw;
+    text-decoration:none;
+}
+nav a:hover{
+    background-color:var(--color1);
+}
+footer{
+    text-align:center;
+    padding:1vw;
+    background-color:var(--color2);
+}
+.divHeader{
+    width:100%;
+}
+#infoColumn{
+    float:left;
+    width:40%;
+    padding:3%;
+}
+.picColumnLeft{
+    float:left;
+    width:30%;
+    padding-top:3%;
+    padding-left:9%;
+}
+.picColumnMiddle{
+    float:left;
+    width:40%;
+    /* padding-top:3%; */
+    padding-left:9%;
+}
+.picColumnRight{
+    float:left;
+    width:30%;
+    padding-top:3%;
+}
+.articlePic{
+    width:21vw;
+    border:1vw ridge var(--color2);
+}
+.headerPic{
+    width:15vw;
+    border:1vw ridge var(--color2);
+}
+#garlicColumn{
+    float:left;
+    width:15%;
+}
+#michaelPyrdolColumn{
+    float:left;
+    width:70%;
+}
+#mushroomColumn{
+    float:right;
+    width:15%;
+}
+.column{
+    background-color:var(--color1);
+}
+*{
+    box-sizing:border-box;
+}
+br{
+    clear:both;
+}
