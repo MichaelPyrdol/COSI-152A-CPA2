@@ -1,25 +1,46 @@
+/* Declaring constant colors */
 :root{
     --color1:#ffe680;
     --color2:#ffcd00;
 }
+/* Setting the page background color */
 body{
     background-color:var(--color1);
 }
-h1{
-    font-family:"SnellRoundHand";
-    font-size:10vw;
-    text-align:center;
-    line-height:0;
+/* Setting properties for the nav bar */
+nav{
+    overflow:hidden;
+    background-color:var(--color2);
+    font-size:1vw;
+    border:1vw ridge var(--color2);
 }
-h2{
+/* Setting properties for the footer */
+footer{
     text-align:center;
-    font-size:1.5vw;
+    padding:1vw;
     background-color:var(--color2);
 }
+/* Setting properties for h1, which only appears in the header */
+h1{
+    font-family:"SnellRoundHand";
+    font-size:8vw;
+    text-align:center;
+    line-height:0;
+    padding-top:1vw;
+    padding-bottom:1vw;
+}
+/* Setting properties for h2, which only appears in the header */
+h2{
+    text-align:center;
+    font-size:2vw;
+    background-color:var(--color2);
+}
+/* Setting properties for h3, which appears in the table */
 h3{
     text-align:center;
     background-color:var(--color1);
 }
+/* Setting properties for table elements */
 table{
     background-color:var(--color2);
     margin-left:auto;
@@ -27,16 +48,12 @@ table{
     font-size:1vw;
     border:1vw ridge var(--color2);
 }
+/* Setting properties for the table header */
 th{
     font-size:2vw;
     background-color:var(--color1);
 }
-nav{
-    overflow:hidden;
-    background-color:var(--color2);
-    font-size:1vw;
-    border:1vw ridge var(--color2);
-}
+/* Setting properties for the nav buttons */
 nav a{
     float:left;
     display:block;
@@ -45,65 +62,69 @@ nav a{
     padding:0.5vw 1vw;
     text-decoration:none;
 }
+/* Changing the background color for hovering over the nav buttons */
 nav a:hover{
     background-color:var(--color1);
 }
-footer{
-    text-align:center;
-    padding:1vw;
-    background-color:var(--color2);
+/* Ensuring <br> starts a new line */
+br{
+    clear:both;
 }
-.divHeader{
-    width:100%;
-}
+/* Setting properties for the central info column */
 #infoColumn{
     float:left;
     width:40%;
     padding:3%;
 }
+/* Setting properties for the left picture column */
 .picColumnLeft{
     float:left;
     width:30%;
     padding-top:3%;
     padding-left:9%;
 }
+/* Setting properties for the middle picture column */
 .picColumnMiddle{
     float:left;
     width:40%;
-    /* padding-top:3%; */
     padding-left:9%;
 }
+/* Setting properties for the right picture column */
 .picColumnRight{
     float:left;
     width:30%;
     padding-top:3%;
 }
-.articlePic{
-    width:21vw;
-    border:1vw ridge var(--color2);
-}
+/* Setting properties for the pictures in the header section */
 .headerPic{
     width:15vw;
     border:1vw ridge var(--color2);
 }
+/* Setting properties for the pictures in the article section */
+.articlePic{
+    width:21vw;
+    border:1vw ridge var(--color2);
+}
+/* Setting properties for the garlic column */
 #garlicColumn{
     float:left;
     width:15%;
 }
+/* Setting properties for the title column */
 #michaelPyrdolColumn{
     float:left;
     width:70%;
 }
+/* Setting properties for the mushroom column */
 #mushroomColumn{
     float:right;
     width:15%;
 }
+/* Setting the color of the vertical line in the table */
 .column{
     background-color:var(--color1);
 }
+/* Making the box sizes uniform */
 *{
     box-sizing:border-box;
-}
-br{
-    clear:both;
 }
